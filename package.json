@@ -1,0 +1,25 @@
+{
+  "name": "funapp",
+  "version": "1.0.0",
+  "description": "This will be an app for us to learn about fullstack development",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alejandro-Gonzalez-Barriga/funapp.git"
+  },
+  "author": "AlexG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alejandro-Gonzalez-Barriga/funapp/issues"
+  },
+  "homepage": "https://github.com/Alejandro-Gonzalez-Barriga/funapp#readme",
+  "dependencies": {
+    "ath": "^1.0.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  }
+}

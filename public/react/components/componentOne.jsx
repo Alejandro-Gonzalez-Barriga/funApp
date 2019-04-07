@@ -19,7 +19,7 @@ firstF(){
 
 secondF(){
   console.log('inin2 second');
-  axios.get('https://api.chucknorris.io/jokes/random')
+  axios.get('')
     .then(function (response) {
       console.log(response);
   })

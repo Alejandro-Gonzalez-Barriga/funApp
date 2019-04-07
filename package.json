@@ -1,25 +1,40 @@
 {
   "name": "funapp",
   "version": "1.0.0",
-  "description": "This will be an app for us to learn about fullstack development",
+  "description": "This will be an app for us to learn more about full stack development",
   "main": "server/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "react-dev": "webpack -d --watch",
+    "server-dev": "nodemon server/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Alejandro-Gonzalez-Barriga/funapp.git"
+    "url": "git+https://github.com/efrain-vasquez/funapp.git"
   },
-  "author": "AlexG",
+  "author": "efrain vasquez",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Alejandro-Gonzalez-Barriga/funapp/issues"
+    "url": "https://github.com/efrain-vasquez/funapp/issues"
   },
-  "homepage": "https://github.com/Alejandro-Gonzalez-Barriga/funapp#readme",
+  "homepage": "https://github.com/marcocastillo2506/funapp#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^2.2.1"
+  },
   "dependencies": {
-    "ath": "^1.0.0",
+    "axios": "^0.18.0",
+    "babel-preset-stage-2": "^6.24.1",
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
-    "path": "^0.12.7"
+    "jquery": "^3.3.1",
+    "nodemon": "^1.18.10",
+    "path": "^0.12.7",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
   }
 }
